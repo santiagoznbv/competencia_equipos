@@ -1,0 +1,27 @@
+/* styles.css - commit 1 */
+/* Reset sencillo y variables */
+:root{
+  --primary: #264653;
+  --accent: #2a9d8f;
+  --muted: #6c757d;
+  --bg: #f8fafb;
+  --white: #ffffff;
+  --max-width: 1100px;
+  --container-pad: 1rem;
+  --radius: 8px;
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html,body { height: 100%; }
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: #222;
+  line-height: 1.5;
+}
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
